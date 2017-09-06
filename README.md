@@ -1,6 +1,6 @@
 # sdl_libraries
 
-This repository is used to setup the develop environment of sdl for rk3288 board system.
+This repository is used to setup the develop environment for [sdl_implementation_reference](https://github.com/luwanjia/sdl_implementation_reference.git)
 
 ## 1. Install the compiler.
 
