@@ -64,6 +64,10 @@ echo "-- Extract libgstreamer1.0 ..."
 dpkg-deb -x packages/libgstreamer1.0-0_*-*_armhf.deb .
 dpkg-deb -x packages/libgstreamer1.0-dev_*-*_armhf.deb .
 
+echo "-- Extract libgstreamer-plugins-base1.0 ..."
+dpkg-deb -x packages/libgstreamer-plugins-base1.0-0_*-*_armhf.deb .
+dpkg-deb -x packages/libgstreamer-plugins-base1.0-dev_*-*_armhf.deb .
+
 echo "-- Extract libglib2.0 ..."
 dpkg-deb -x packages/libglib2.0-0_*-*_armhf.deb .
 dpkg-deb -x packages/libglib2.0-dev_*-*_armhf.deb .
@@ -75,6 +79,10 @@ dpkg-deb -x packages/libffi-dev_*-*_armhf.deb .
 echo "-- Extract libpcre3 ..."
 dpkg-deb -x packages/libpcre3_*-*_armhf.deb .
 dpkg-deb -x packages/libpcre3-dev_*-*_armhf.deb .
+
+echo "-- Extract liborc-0.4 ..."
+dpkg-deb -x packages/liborc-0.4-0_*-*_armhf.deb .
+dpkg-deb -x packages/liborc-0.4-dev_*-*_armhf.deb .
 
 echo "-- Do some work ..."
 mv ./usr/include/arm-linux-gnueabihf/openssl/opensslconf.h ./usr/include/openssl/
