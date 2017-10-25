@@ -94,6 +94,8 @@ mv ./usr/bin ./usr/arm-linux-gnueabihf
 mv ./usr/include ./usr/arm-linux-gnueabihf
 mv ./usr/lib ./usr/arm-linux-gnueabihf
 mv ./usr/share ./usr/arm-linux-gnueabihf
+
+echo "-- Add extra packages ..."
 cp -rf ./packages_extra/* ./usr/arm-linux-gnueabihf
 
 echo "-- Install to system ..."

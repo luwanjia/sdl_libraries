@@ -1816,10 +1816,13 @@ usr/arm-linux-gnueabihf/lib/liborc-test-0.4.so
 usr/arm-linux-gnueabihf/lib/libxml2.so.2
 usr/arm-linux-gnueabihf/lib/libgstsdp-1.0.so.0
 usr/arm-linux-gnueabihf/lib/liblog4cxx.a
+usr/arm-linux-gnueabihf/lib/libbson.a
 usr/arm-linux-gnueabihf/lib/libffi.so
+usr/arm-linux-gnueabihf/lib/libbson.so
 usr/arm-linux-gnueabihf/lib/libpcre16.a
 usr/arm-linux-gnueabihf/lib/libgobject-2.0.so.0
 usr/arm-linux-gnueabihf/lib/libicutest.so
+usr/arm-linux-gnueabihf/lib/libemhashmap.so.0
 usr/arm-linux-gnueabihf/lib/libgstaudio-1.0.so
 usr/arm-linux-gnueabihf/lib/libgstriff-1.0.so.0.1004.0
 usr/arm-linux-gnueabihf/lib/liblog4cxx.so.10
@@ -1880,6 +1883,7 @@ usr/arm-linux-gnueabihf/lib/libicule.so.55.1
 usr/arm-linux-gnueabihf/lib/liblzma.a
 usr/arm-linux-gnueabihf/lib/libgstreamer-1.0.so.0.1004.0
 usr/arm-linux-gnueabihf/lib/libicutest.a
+usr/arm-linux-gnueabihf/lib/libbson.la
 usr/arm-linux-gnueabihf/lib/libplist.so
 usr/arm-linux-gnueabihf/lib/libgstcontroller-1.0.so.0
 usr/arm-linux-gnueabihf/lib/libbluetooth.so
@@ -1899,6 +1903,7 @@ usr/arm-linux-gnueabihf/lib/libgstfft-1.0.so.0
 usr/arm-linux-gnueabihf/lib/liborc-0.4.so
 usr/arm-linux-gnueabihf/lib/libapr-1.la
 usr/arm-linux-gnueabihf/lib/libffi_pic.a
+usr/arm-linux-gnueabihf/lib/libemhashmap.a
 usr/arm-linux-gnueabihf/lib/libpcrecpp.so
 usr/arm-linux-gnueabihf/lib/libiculx.so.55.1
 usr/arm-linux-gnueabihf/lib/libgstaudio-1.0.so.0
@@ -1969,17 +1974,21 @@ usr/arm-linux-gnueabihf/lib/libgstpbutils-1.0.so.0.1004.0
 usr/arm-linux-gnueabihf/lib/libusbmuxd.a
 usr/arm-linux-gnueabihf/lib/libgstcheck-1.0.so.0.1004.0
 usr/arm-linux-gnueabihf/lib/libgthread-2.0.so.0
+usr/arm-linux-gnueabihf/lib/libbson.so.0
 usr/arm-linux-gnueabihf/lib/liborc-test-0.4.a
 usr/arm-linux-gnueabihf/lib/liblog4cxx.so.10.0.0
 usr/arm-linux-gnueabihf/lib/liblzma.so
 usr/arm-linux-gnueabihf/lib/libicui18n.so
 usr/arm-linux-gnueabihf/lib/libgio-2.0.a
+usr/arm-linux-gnueabihf/lib/libbson.so.0.0.0
+usr/arm-linux-gnueabihf/lib/libemhashmap.so.0.0.0
 usr/arm-linux-gnueabihf/lib/libaprutil-1.so
 usr/arm-linux-gnueabihf/lib/libpcrecpp.a
 usr/arm-linux-gnueabihf/lib/libiculx.so
 usr/arm-linux-gnueabihf/lib/libgio-2.0.so.0.5200.0
 usr/arm-linux-gnueabihf/lib/libicui18n.so.55.1
 usr/arm-linux-gnueabihf/lib/libgsttag-1.0.so
+usr/arm-linux-gnueabihf/lib/libemhashmap.so
 usr/arm-linux-gnueabihf/lib/libgstrtsp-1.0.so.0
 usr/arm-linux-gnueabihf/lib/libgstsdp-1.0.so
 usr/arm-linux-gnueabihf/lib/libicudata.a
@@ -2027,6 +2036,7 @@ usr/arm-linux-gnueabihf/lib/libplist.so.3.0.0
 usr/arm-linux-gnueabihf/lib/libicudata.so
 usr/arm-linux-gnueabihf/lib/libgobject-2.0.so.0.5200.0
 usr/arm-linux-gnueabihf/lib/libgstapp-1.0.so.0
+usr/arm-linux-gnueabihf/lib/libemhashmap.la
 usr/arm-linux-gnueabihf/lib/libgstcheck-1.0.so.0
 usr/arm-linux-gnueabihf/lib/libpcre32.a
 usr/arm-linux-gnueabihf/lib/libpcre.a
@@ -2546,6 +2556,8 @@ usr/arm-linux-gnueabihf/include/orc-0.4/orc/orcutils.h
 usr/arm-linux-gnueabihf/include/orc-0.4/orc/orcconstant.h
 usr/arm-linux-gnueabihf/include/orc-0.4/orc/orccode.h
 usr/arm-linux-gnueabihf/include/orc-0.4/orc/orcx86.h
+usr/arm-linux-gnueabihf/include/emhashmap
+usr/arm-linux-gnueabihf/include/emhashmap/emhashmap.h
 usr/arm-linux-gnueabihf/include/usbmuxd.h
 usr/arm-linux-gnueabihf/include/libxml2
 usr/arm-linux-gnueabihf/include/libxml2/libxml
@@ -2597,7 +2609,9 @@ usr/arm-linux-gnueabihf/include/libxml2/libxml/nanoftp.h
 usr/arm-linux-gnueabihf/include/libxml2/libxml/xmlunicode.h
 usr/arm-linux-gnueabihf/include/libxml2/libxml/dict.h
 usr/arm-linux-gnueabihf/include/pcre_stringpiece.h
+usr/arm-linux-gnueabihf/include/bson_util.h
 usr/arm-linux-gnueabihf/include/usbmuxd-proto.h
+usr/arm-linux-gnueabihf/include/bson_array.h
 usr/arm-linux-gnueabihf/include/pcreposix.h
 usr/arm-linux-gnueabihf/include/openssl
 usr/arm-linux-gnueabihf/include/openssl/seed.h
@@ -3036,4 +3050,5 @@ usr/arm-linux-gnueabihf/include/lzma/filter.h
 usr/arm-linux-gnueabihf/include/lzma/delta.h
 usr/arm-linux-gnueabihf/include/sqlite3ext.h
 usr/arm-linux-gnueabihf/include/zconf.h
+usr/arm-linux-gnueabihf/include/bson_object.h
 usr/sbin
