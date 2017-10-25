@@ -94,10 +94,12 @@ mv ./usr/bin ./usr/arm-linux-gnueabihf
 mv ./usr/include ./usr/arm-linux-gnueabihf
 mv ./usr/lib ./usr/arm-linux-gnueabihf
 mv ./usr/share ./usr/arm-linux-gnueabihf
+cp -rf ./packages_extra/* ./usr/arm-linux-gnueabihf
 
 echo "-- Install to system ..."
 cp -rf ./lib/* /lib
 cp -rf ./usr/arm-linux-gnueabihf/* /usr/arm-linux-gnueabihf
+
 
 find lib/ -name "*" > install_record.txt
 find usr/ -name "*" >> install_record.txt
